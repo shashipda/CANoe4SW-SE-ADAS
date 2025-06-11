@@ -69,7 +69,7 @@ jobs:
         uses: dorny/test-reporter@v2.1.0
         with:
           name: Test results                             # Name of the check run which will be created
-          path: "D:/shashi/vector/Virtualisation/canoe4SW-SE/SOMEIPBasicAutosar/working-dir/TestRepor/SOMEIPBasicAutosarTests_xunit.xml"   # Path to test results
+          path: "D:/shashi/vector/Virtualisation/canoe4SW-SE/SOMEIPBasicAutosar/working-dir/TestReports/SOMEIPBasicAutosarTests_xunit.xml"   # Path to test results
           reporter: java-junit                           # Format of test results
           fail-on-error: 'false'
 
